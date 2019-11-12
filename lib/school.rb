@@ -20,7 +20,7 @@ class School
     
     def sort
         grades_sort = @roster.sort
-        grades_sort.each { |grade, students| students.sort }
+        grades_sort.each { |grade, students| binding.pry }
           
     end
 end
