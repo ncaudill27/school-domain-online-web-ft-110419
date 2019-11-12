@@ -19,6 +19,7 @@ class School
     end
     
     def sort
+        @roster.sort_by { |grades, students| stud
         @roster.sort
           
     end
