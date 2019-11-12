@@ -19,9 +19,7 @@ class School
     end
     
     def sort
-        sorted = @roster.each do |grade|
-          grade.values.sort
-        end
+        sorted = @roster.values
         binding.pry
     end
 end
