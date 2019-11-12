@@ -19,7 +19,7 @@ class School
     end
     
     def sort
-        @roster.collect { |memo| binding.pry }
+        @roster.collect { |roster| roster.sort }
           
     end
 end
