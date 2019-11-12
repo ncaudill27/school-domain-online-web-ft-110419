@@ -19,9 +19,7 @@ class School
     end
     
     def sort
-        here = @roster.each do |grade, students|
-          students.sort!
+        @roster.each { |grade, students| students.sort! }
         end
-        binding.pry
     end
 end
