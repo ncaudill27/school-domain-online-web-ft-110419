@@ -19,7 +19,8 @@ class School
     end
     
     def sort
-        @roster.sort_by { |grades, students| binding.pry }
+        sorted_students = @roster.sort_by { |grades, students| students }
+        binding.pry
         @roster.sort
           
     end
