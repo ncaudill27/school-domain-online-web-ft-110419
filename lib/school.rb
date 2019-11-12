@@ -19,8 +19,9 @@ class School
     end
     
     def sort
-        grades_sort = @roster.sort
-        grades_sort.each { |grade, students| binding.pry }
+        grades_sort = @roster.sort.with_index { |grade, index| binding.pry }
+        
+        #grades_sort.each { |grade, students| binding.pry }
           
     end
 end
