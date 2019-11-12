@@ -19,10 +19,7 @@ class School
     end
     
     def sort
-        @roster.sort do |grade, (student, learn)|
-          binding.pry
+        @roster.collect { |memo| binding.pry }
           
-        end
-
     end
 end
