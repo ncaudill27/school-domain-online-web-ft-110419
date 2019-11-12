@@ -19,9 +19,9 @@ class School
     end
     
     def sort
-        @roster.sort do |grade, students|
-          binding.pry
-          students.sort
+        @roster.sort do |grade, (student, learn)|
+          
+          
         end
 
     end
