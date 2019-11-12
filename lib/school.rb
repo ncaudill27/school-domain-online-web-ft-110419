@@ -19,7 +19,9 @@ class School
     end
     
     def sort
-        sorted = @roster.values
+        here = @roster.each do |grade, students|
+          students.sort!
+        end
         binding.pry
     end
 end
